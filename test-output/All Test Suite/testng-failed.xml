@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Lenovo/IdeaProjects/ITI_RastAssured_API(failed)">
+    <classes>
+      <class name="LginApi_Testcases.TC001_UserLogin">
+        <methods>
+          <include name="TC_UserLogin_001"/>
+        </methods>
+      </class> <!-- LginApi_Testcases.TC001_UserLogin -->
+      <class name="UsersApi_Testcases.TC005_AddNewUser">
+        <methods>
+          <include name="TC_AddUser_001"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC005_AddNewUser -->
+      <class name="UsersApi_Testcases.TC003_LimitResult">
+        <methods>
+          <include name="TC_LimitResult_004"/>
+          <include name="TC_LimitResult_003"/>
+          <include name="TC_LimitResult_001"/>
+          <include name="TC_LimitResult_002"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC003_LimitResult -->
+      <class name="ProductsApi_Testcases.TC008_UpdateProduct">
+        <methods>
+          <include name="TC_UpdatePeroduct_001"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC008_UpdateProduct -->
+      <class name="UsersApi_Testcases.TC001_GetUsers">
+        <methods>
+          <include name="TC_Users_001"/>
+          <include name="TC_Users_002"/>
+          <include name="TC_Users_003"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC001_GetUsers -->
+      <class name="UsersApi_Testcases.TC007_DeleteUser">
+        <methods>
+          <include name="TC_DeleteUser_001"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC007_DeleteUser -->
+      <class name="UsersApi_Testcases.TC002_GetSingleUser">
+        <methods>
+          <include name="TC_SingleUser_001"/>
+          <include name="TC_SingleUser_002"/>
+          <include name="TC_SingleUser_003"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC002_GetSingleUser -->
+      <class name="ProductsApi_Testcases.TC002_GetSingleProduct">
+        <methods>
+          <include name="TC_SingleProduct_001"/>
+          <include name="TC_SingleProduct_002"/>
+          <include name="TC_SingleProduct_003"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC002_GetSingleProduct -->
+      <class name="CartsApi_Testcases.TC006_GetUserCart">
+        <methods>
+          <include name="TC_GetUserCart_002"/>
+          <include name="TC_GetUserCart_003"/>
+          <include name="TC_GetUserCart_004"/>
+        </methods>
+      </class> <!-- CartsApi_Testcases.TC006_GetUserCart -->
+      <class name="ProductsApi_Testcases.TC007_AddNewProduct">
+        <methods>
+          <include name="TC_AddPeroduct_001"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC007_AddNewProduct -->
+      <class name="ProductsApi_Testcases.TC005_GetCategories">
+        <methods>
+          <include name="TC_Categories_002"/>
+          <include name="TC_Categories_001"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC005_GetCategories -->
+      <class name="ProductsApi_Testcases.TC009_DeleteProduct">
+        <methods>
+          <include name="TC_DeletePeroduct_001"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC009_DeleteProduct -->
+      <class name="CartsApi_Testcases.TC007_AddNewProduct">
+        <methods>
+          <include name="TC_AddProduct_001"/>
+        </methods>
+      </class> <!-- CartsApi_Testcases.TC007_AddNewProduct -->
+      <class name="CartsApi_Testcases.TC008_UpdateCart">
+        <methods>
+          <include name="TC_UpdatCart_001"/>
+        </methods>
+      </class> <!-- CartsApi_Testcases.TC008_UpdateCart -->
+      <class name="UsersApi_Testcases.TC004_SortResultById">
+        <methods>
+          <include name="TC_SortResult_001"/>
+          <include name="TC_SortResult_002"/>
+          <include name="TC_SortResult_003"/>
+          <include name="TC_SortResult_004"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC004_SortResultById -->
+      <class name="ProductsApi_Testcases.TC006_GetProductsInSpecificCategory">
+        <methods>
+          <include name="TC_SpecificCategory_001"/>
+          <include name="TC_SpecificCategory_002"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC006_GetProductsInSpecificCategory -->
+      <class name="ProductsApi_Testcases.TC003_LimitResults">
+        <methods>
+          <include name="TC_LimitResult_001"/>
+          <include name="TC_LimitResult_002"/>
+          <include name="TC_LimitResult_004"/>
+          <include name="TC_LimitResult_003"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC003_LimitResults -->
+      <class name="UsersApi_Testcases.TC006_UpdateUser">
+        <methods>
+          <include name="TC_UpdateUser_001"/>
+        </methods>
+      </class> <!-- UsersApi_Testcases.TC006_UpdateUser -->
+      <class name="CartsApi_Testcases.TC009_DeleteCart">
+        <methods>
+          <include name="TC_DeletePeroduct_001"/>
+        </methods>
+      </class> <!-- CartsApi_Testcases.TC009_DeleteCart -->
+      <class name="ProductsApi_Testcases.TC004_SortResultById">
+        <methods>
+          <include name="TC_SortResult_004"/>
+          <include name="TC_SortResult_001"/>
+          <include name="TC_SortResult_003"/>
+          <include name="TC_SortResult_002"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC004_SortResultById -->
+      <class name="ProductsApi_Testcases.TC001_GetProducts">
+        <methods>
+          <include name="TC_Products_001"/>
+          <include name="TC_Products_004"/>
+          <include name="TC_Products_003"/>
+          <include name="TC_Products_002"/>
+        </methods>
+      </class> <!-- ProductsApi_Testcases.TC001_GetProducts -->
+    </classes>
+  </test> <!-- C:/Users/Lenovo/IdeaProjects/ITI_RastAssured_API(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

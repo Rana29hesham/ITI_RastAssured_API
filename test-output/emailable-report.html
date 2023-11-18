@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">C:/Users/Lenovo/IdeaProjects/ITI_RastAssured_API</a></td><td class="numi">68</td><td class="numi">68</td><td class="numi">0</td><td class="numi">0</td><td class="numi">85.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">C:/Users/Lenovo/IdeaProjects/ITI_RastAssured_API &#8212; passed</th></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC004_SortResultById</td><td><a href="#m1"><b>TC_SortResult_004</b>  ("4-check that products sorted by id desc")</a></td><td class="numi">1</td><td>1700259947083</td><td class="numi">1037</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC006_GetProductsInSpecificCategory</td><td><a href="#m2"><b>TC_SpecificCategory_002</b>  ("2-Check that all products are in jewelery category")</a></td><td class="numi">1</td><td>1700259951200</td><td class="numi">1224</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC003_LimitResult</td><td><a href="#m3"><b>TC_LimitResult_003</b>  ("3-Check Email Format Validation")</a></td><td class="numi">1</td><td>1700259965329</td><td class="numi">1262</td></tr>
+<tr class="passedeven"><td rowspan="2">ProductsApi_Testcases.TC003_LimitResults</td><td><a href="#m4"><b>TC_LimitResult_003</b>  ("3-check that number of products is equal to 5")</a></td><td class="numi">1</td><td>1700259941785</td><td class="numi">1021</td></tr><tr class="passedeven"><td><a href="#m5"><b>TC_LimitResult_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259939700</td><td class="numi">1053</td></tr>
+<tr class="passedodd"><td>LginApi_Testcases.TC001_UserLogin</td><td><a href="#m6"><b>TC_UserLogin_001</b>  ("1-Check Status Code=200 | and Response body has (token) key")</a></td><td class="numi">1</td><td>1700259930474</td><td class="numi">1450</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC004_SortResultById</td><td><a href="#m7"><b>TC_SortResult_002</b>  ("2-check that All users data arenot empty")</a></td><td class="numi">1</td><td>1700259969008</td><td class="numi">1193</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC004_SortResultsById</td><td><a href="#m8"><b>TC_SortResult_004</b>  ("4-Check that All carts have date")</a></td><td class="numi">1</td><td>1700259913595</td><td class="numi">1293</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC005_GetCartsInDateRange</td><td><a href="#m9"><b>TC_CartsInDateRange_003</b>  ("4-Check that All products have quantity")</a></td><td class="numi">1</td><td>1700259918813</td><td class="numi">1601</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC005_AddNewUser</td><td><a href="#m10"><b>TC_AddUser_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259972755</td><td class="numi">1218</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC004_SortResultsById</td><td><a href="#m11"><b>TC_SortResults_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259909777</td><td class="numi">1331</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC001_GetUsers</td><td><a href="#m12"><b>TC_Users_003</b>  ("3-Check Email Format Validation")</a></td><td class="numi">1</td><td>1700259958126</td><td class="numi">1274</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC001_GetCarts</td><td><a href="#m13"><b>TC_Carts_002</b>  ("2-Check that All carts have userID")</a></td><td class="numi">1</td><td>1700259893800</td><td class="numi">1895</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC004_SortResultById</td><td><a href="#m14"><b>TC_SortResult_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259967791</td><td class="numi">1216</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC001_GetProducts</td><td><a href="#m15"><b>TC_Products_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259931925</td><td class="numi">1053</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC002_GetSingleUser</td><td><a href="#m16"><b>TC_SingleUser_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259959401</td><td class="numi">1167</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC003_LimitResult</td><td><a href="#m17"><b>TC_LimitResult_004</b>  ("4-check that number of users is equal to 5")</a></td><td class="numi">1</td><td>1700259966592</td><td class="numi">1199</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC002_GetSingleCart</td><td><a href="#m18"><b>TC_SingleCart_002</b>  ("2-Check that cart has userID")</a></td><td class="numi">1</td><td>1700259898486</td><td class="numi">1221</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC005_GetCartsInDateRange</td><td><a href="#m19"><b>TC_CartsInDateRange_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259916292</td><td class="numi">1223</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC001_GetCarts</td><td><a href="#m20"><b>TC_Carts_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259891029</td><td class="numi">2765</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC003_LimitResults</td><td><a href="#m21"><b>TC_LimitResult_002</b>  ("2-check that All product data (title, price, images, description) arenot empty")</a></td><td class="numi">1</td><td>1700259940754</td><td class="numi">1031</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC003_LimitResult</td><td><a href="#m22"><b>TC_LimitResult_002</b>  ("2-check that All users data arenot empty")</a></td><td class="numi">1</td><td>1700259964155</td><td class="numi">1174</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC005_GetCartsInDateRange</td><td><a href="#m23"><b>TC_CartsInDateRange_005</b>  ("5-Check that date of all carts between (2019-12-10 - 2020-10-10)")</a></td><td class="numi">1</td><td>1700259920415</td><td class="numi">1538</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC002_GetSingleCart</td><td><a href="#m24"><b>TC_SingleCart_003</b>  ("3-Check that cart has date")</a></td><td class="numi">1</td><td>1700259899707</td><td class="numi">1497</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC002_GetSingleUser</td><td><a href="#m25"><b>TC_SingleUser_003</b>  ("3-Check Email Format Validation")</a></td><td class="numi">1</td><td>1700259961748</td><td class="numi">1203</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC006_UpdateUser</td><td><a href="#m26"><b>TC_UpdateUser_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259973974</td><td class="numi">1067</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC004_SortResultById</td><td><a href="#m27"><b>TC_SortResult_002</b>  ("2-check that All product data (title, price, images, description) arenot empty")</a></td><td class="numi">1</td><td>1700259944910</td><td class="numi">1026</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC003_LimitResults</td><td><a href="#m28"><b>TC_LimitResult_004</b>  ("4-Check that All carts have date")</a></td><td class="numi">1</td><td>1700259906555</td><td class="numi">1533</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC006_GetUserCart</td><td><a href="#m29"><b>TC_GetUserCart_002</b>  ("2-Check that All carts have userID")</a></td><td class="numi">1</td><td>1700259923289</td><td class="numi">1224</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC004_SortResultsById</td><td><a href="#m30"><b>TC_SortResult_003</b>  ("3-Check that All carts have userID")</a></td><td class="numi">1</td><td>1700259912327</td><td class="numi">1267</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC007_AddNewProduct</td><td><a href="#m31"><b>TC_AddProduct_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259927139</td><td class="numi">1066</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC001_GetProducts</td><td><a href="#m32"><b>TC_Products_003</b>  ("3-check Response body includes (title, price, image, description, rating")</a></td><td class="numi">1</td><td>1700259934102</td><td class="numi">1509</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC002_GetSingleProduct</td><td><a href="#m33"><b>TC_SingleProduct_002</b>  ("2-check that All product data (title, price, images, description) arenot empty")</a></td><td class="numi">1</td><td>1700259937674</td><td class="numi">1016</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC001_GetUsers</td><td><a href="#m34"><b>TC_Users_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259955694</td><td class="numi">1215</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC005_GetCartsInDateRange</td><td><a href="#m35"><b>TC_CartsInDateRange_002</b>  ("3-Check that All carts have userID")</a></td><td class="numi">1</td><td>1700259917516</td><td class="numi">1296</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC003_LimitResult</td><td><a href="#m36"><b>TC_LimitResult_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259962951</td><td class="numi">1204</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC005_GetCategories</td><td><a href="#m37"><b>TC_Categories_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259948120</td><td class="numi">1016</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC001_GetProducts</td><td><a href="#m38"><b>TC_Products_004</b>  ("4-check that the total number of products is equal to 20")</a></td><td class="numi">1</td><td>1700259935611</td><td class="numi">1055</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC008_UpdateProduct</td><td><a href="#m39"><b>TC_UpdatePeroduct_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259953469</td><td class="numi">1030</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC001_GetCarts</td><td><a href="#m40"><b>TC_Carts_003</b>  ("3-Check that All carts have date")</a></td><td class="numi">1</td><td>1700259895696</td><td class="numi">1500</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC008_UpdateCart</td><td><a href="#m41"><b>TC_UpdatCart_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259928206</td><td class="numi">1051</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC009_DeleteProduct</td><td><a href="#m42"><b>TC_DeletePeroduct_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259954500</td><td class="numi">1193</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC001_GetUsers</td><td><a href="#m43"><b>TC_Users_002</b>  ("2-check that All users data arenot empty")</a></td><td class="numi">1</td><td>1700259956910</td><td class="numi">1216</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC006_GetUserCart</td><td><a href="#m44"><b>TC_GetUserCart_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259921953</td><td class="numi">1335</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC004_SortResultsById</td><td><a href="#m45"><b>TC_SortResult_005</b>  ("5-Check that All products have quantity")</a></td><td class="numi">1</td><td>1700259914889</td><td class="numi">1402</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC006_GetUserCart</td><td><a href="#m46"><b>TC_GetUserCart_004</b>  ("4-Check that All products have quantity")</a></td><td class="numi">1</td><td>1700259925842</td><td class="numi">1297</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC002_GetSingleUser</td><td><a href="#m47"><b>TC_SingleUser_002</b>  ("2-check that All user data isnot empty")</a></td><td class="numi">1</td><td>1700259960570</td><td class="numi">1177</td></tr>
+<tr class="passedodd"><td rowspan="2">CartsApi_Testcases.TC003_LimitResults</td><td><a href="#m48"><b>TC_LimitResult_003</b>  ("2-Check that All carts have userID")</a></td><td class="numi">1</td><td>1700259905143</td><td class="numi">1411</td></tr><tr class="passedodd"><td><a href="#m49"><b>TC_LimitResult_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259902564</td><td class="numi">1217</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC007_AddNewProduct</td><td><a href="#m50"><b>TC_AddPeroduct_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259952424</td><td class="numi">1045</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC003_LimitResults</td><td><a href="#m51"><b>TC_LimitResult_005</b>  ("4-Check that All products have quantity")</a></td><td class="numi">1</td><td>1700259908089</td><td class="numi">1688</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC002_GetSingleCart</td><td><a href="#m52"><b>TC_SingleCart_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259897197</td><td class="numi">1288</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC004_SortResultById</td><td><a href="#m53"><b>TC_SortResult_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259943892</td><td class="numi">1017</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC004_SortResultById</td><td><a href="#m54"><b>TC_SortResult_003</b>  ("3-check that users sorted by id desc")</a></td><td class="numi">1</td><td>1700259970202</td><td class="numi">1270</td></tr>
+<tr class="passedodd"><td rowspan="2">ProductsApi_Testcases.TC002_GetSingleProduct</td><td><a href="#m55"><b>TC_SingleProduct_003</b>  ("3-check Response body includes (title, price, image, description , rating)")</a></td><td class="numi">1</td><td>1700259938691</td><td class="numi">1008</td></tr><tr class="passedodd"><td><a href="#m56"><b>TC_SingleProduct_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259936666</td><td class="numi">1007</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC004_SortResultById</td><td><a href="#m57"><b>TC_SortResult_003</b>  ("3-check Response body includes (title, price, image, description, rating")</a></td><td class="numi">1</td><td>1700259945936</td><td class="numi">1147</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC001_GetProducts</td><td><a href="#m58"><b>TC_Products_002</b>  ("2-check that All products data – title, price, image, description arenot empty")</a></td><td class="numi">1</td><td>1700259932979</td><td class="numi">1122</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC003_LimitResults</td><td><a href="#m59"><b>TC_LimitResult_002</b>  ("3-check that number of carts is equal to 5")</a></td><td class="numi">1</td><td>1700259903782</td><td class="numi">1360</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC004_SortResultsById</td><td><a href="#m60"><b>TC_SortResult_002</b>  ("4-check that carts sorted by id desc")</a></td><td class="numi">1</td><td>1700259911109</td><td class="numi">1218</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC006_GetUserCart</td><td><a href="#m61"><b>TC_GetUserCart_003</b>  ("3-Check that All carts have date")</a></td><td class="numi">1</td><td>1700259924513</td><td class="numi">1329</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC005_GetCategories</td><td><a href="#m62"><b>TC_Categories_002</b>  ("2-Check categories name")</a></td><td class="numi">1</td><td>1700259949137</td><td class="numi">1054</td></tr>
+<tr class="passedeven"><td>CartsApi_Testcases.TC002_GetSingleCart</td><td><a href="#m63"><b>TC_SingleCart_004</b>  ("4-Check that All products have quantity")</a></td><td class="numi">1</td><td>1700259901204</td><td class="numi">1360</td></tr>
+<tr class="passedodd"><td>ProductsApi_Testcases.TC003_LimitResults</td><td><a href="#m64"><b>TC_LimitResult_004</b>  ("4-check Response body includes (title, price, image, description, rating")</a></td><td class="numi">1</td><td>1700259942806</td><td class="numi">1085</td></tr>
+<tr class="passedeven"><td>UsersApi_Testcases.TC007_DeleteUser</td><td><a href="#m65"><b>TC_DeleteUser_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259975041</td><td class="numi">1215</td></tr>
+<tr class="passedodd"><td>UsersApi_Testcases.TC004_SortResultById</td><td><a href="#m66"><b>TC_SortResult_004</b>  ("4-Check Email Format Validation")</a></td><td class="numi">1</td><td>1700259971473</td><td class="numi">1282</td></tr>
+<tr class="passedeven"><td>ProductsApi_Testcases.TC006_GetProductsInSpecificCategory</td><td><a href="#m67"><b>TC_SpecificCategory_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259950193</td><td class="numi">1007</td></tr>
+<tr class="passedodd"><td>CartsApi_Testcases.TC009_DeleteCart</td><td><a href="#m68"><b>TC_DeletePeroduct_001</b>  ("1-Check Status Code")</a></td><td class="numi">1</td><td>1700259929258</td><td class="numi">1216</td></tr>
+</table>
+<h1>C:/Users/Lenovo/IdeaProjects/ITI_RastAssured_API</h1>
+<h2 id="m1">ProductsApi_Testcases.TC004_SortResultById:TC_SortResult_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">ProductsApi_Testcases.TC006_GetProductsInSpecificCategory:TC_SpecificCategory_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">UsersApi_Testcases.TC003_LimitResult:TC_LimitResult_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">ProductsApi_Testcases.TC003_LimitResults:TC_LimitResult_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">ProductsApi_Testcases.TC003_LimitResults:TC_LimitResult_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">LginApi_Testcases.TC001_UserLogin:TC_UserLogin_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">UsersApi_Testcases.TC004_SortResultById:TC_SortResult_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">CartsApi_Testcases.TC004_SortResultsById:TC_SortResult_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">CartsApi_Testcases.TC005_GetCartsInDateRange:TC_CartsInDateRange_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">UsersApi_Testcases.TC005_AddNewUser:TC_AddUser_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">CartsApi_Testcases.TC004_SortResultsById:TC_SortResults_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">UsersApi_Testcases.TC001_GetUsers:TC_Users_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">CartsApi_Testcases.TC001_GetCarts:TC_Carts_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">UsersApi_Testcases.TC004_SortResultById:TC_SortResult_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">ProductsApi_Testcases.TC001_GetProducts:TC_Products_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">UsersApi_Testcases.TC002_GetSingleUser:TC_SingleUser_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">UsersApi_Testcases.TC003_LimitResult:TC_LimitResult_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">CartsApi_Testcases.TC002_GetSingleCart:TC_SingleCart_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">CartsApi_Testcases.TC005_GetCartsInDateRange:TC_CartsInDateRange_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">CartsApi_Testcases.TC001_GetCarts:TC_Carts_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">ProductsApi_Testcases.TC003_LimitResults:TC_LimitResult_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">UsersApi_Testcases.TC003_LimitResult:TC_LimitResult_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">CartsApi_Testcases.TC005_GetCartsInDateRange:TC_CartsInDateRange_005</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">CartsApi_Testcases.TC002_GetSingleCart:TC_SingleCart_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">UsersApi_Testcases.TC002_GetSingleUser:TC_SingleUser_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">UsersApi_Testcases.TC006_UpdateUser:TC_UpdateUser_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">ProductsApi_Testcases.TC004_SortResultById:TC_SortResult_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">CartsApi_Testcases.TC003_LimitResults:TC_LimitResult_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">CartsApi_Testcases.TC006_GetUserCart:TC_GetUserCart_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">CartsApi_Testcases.TC004_SortResultsById:TC_SortResult_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">CartsApi_Testcases.TC007_AddNewProduct:TC_AddProduct_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">ProductsApi_Testcases.TC001_GetProducts:TC_Products_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">ProductsApi_Testcases.TC002_GetSingleProduct:TC_SingleProduct_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">UsersApi_Testcases.TC001_GetUsers:TC_Users_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">CartsApi_Testcases.TC005_GetCartsInDateRange:TC_CartsInDateRange_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">UsersApi_Testcases.TC003_LimitResult:TC_LimitResult_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">ProductsApi_Testcases.TC005_GetCategories:TC_Categories_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">ProductsApi_Testcases.TC001_GetProducts:TC_Products_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">ProductsApi_Testcases.TC008_UpdateProduct:TC_UpdatePeroduct_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">CartsApi_Testcases.TC001_GetCarts:TC_Carts_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">CartsApi_Testcases.TC008_UpdateCart:TC_UpdatCart_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">ProductsApi_Testcases.TC009_DeleteProduct:TC_DeletePeroduct_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">UsersApi_Testcases.TC001_GetUsers:TC_Users_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">CartsApi_Testcases.TC006_GetUserCart:TC_GetUserCart_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">CartsApi_Testcases.TC004_SortResultsById:TC_SortResult_005</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">CartsApi_Testcases.TC006_GetUserCart:TC_GetUserCart_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">UsersApi_Testcases.TC002_GetSingleUser:TC_SingleUser_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">CartsApi_Testcases.TC003_LimitResults:TC_LimitResult_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">CartsApi_Testcases.TC003_LimitResults:TC_LimitResult_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">ProductsApi_Testcases.TC007_AddNewProduct:TC_AddPeroduct_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">CartsApi_Testcases.TC003_LimitResults:TC_LimitResult_005</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">CartsApi_Testcases.TC002_GetSingleCart:TC_SingleCart_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">ProductsApi_Testcases.TC004_SortResultById:TC_SortResult_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">UsersApi_Testcases.TC004_SortResultById:TC_SortResult_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">ProductsApi_Testcases.TC002_GetSingleProduct:TC_SingleProduct_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">ProductsApi_Testcases.TC002_GetSingleProduct:TC_SingleProduct_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">ProductsApi_Testcases.TC004_SortResultById:TC_SortResult_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">ProductsApi_Testcases.TC001_GetProducts:TC_Products_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">CartsApi_Testcases.TC003_LimitResults:TC_LimitResult_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">CartsApi_Testcases.TC004_SortResultsById:TC_SortResult_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">CartsApi_Testcases.TC006_GetUserCart:TC_GetUserCart_003</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">ProductsApi_Testcases.TC005_GetCategories:TC_Categories_002</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">CartsApi_Testcases.TC002_GetSingleCart:TC_SingleCart_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">ProductsApi_Testcases.TC003_LimitResults:TC_LimitResult_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">UsersApi_Testcases.TC007_DeleteUser:TC_DeleteUser_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">UsersApi_Testcases.TC004_SortResultById:TC_SortResult_004</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">ProductsApi_Testcases.TC006_GetProductsInSpecificCategory:TC_SpecificCategory_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">CartsApi_Testcases.TC009_DeleteCart:TC_DeletePeroduct_001</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

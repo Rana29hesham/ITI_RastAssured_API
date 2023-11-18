@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Lenovo/IdeaProjects/ITI_RastAssured_API">
+        <classes>
+            <class name="CartsApi_Testcases.TC001_GetCarts">
+                <methods>
+                    <include name="TC_Carts_001"/>
+                    <include name="TC_Carts_002"/>
+                    <include name="TC_Carts_003"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC002_GetSingleCart">
+                <methods>
+                    <include name="TC_SingleCart_001"/>
+                    <include name="TC_SingleCart_002"/>
+                    <include name="TC_SingleCart_003"/>
+                    <include name="TC_SingleCart_004"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC003_LimitResults">
+                <methods>
+                    <include name="TC_LimitResult_001"/>
+                    <include name="TC_LimitResult_002"/>
+                    <include name="TC_LimitResult_003"/>
+                    <include name="TC_LimitResult_004"/>
+                    <include name="TC_LimitResult_005"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC004_SortResultsById">
+                <methods>
+                    <include name="TC_SortResults_001"/>
+                    <include name="TC_SortResult_002"/>
+                    <include name="TC_SortResult_003"/>
+                    <include name="TC_SortResult_004"/>
+                    <include name="TC_SortResult_005"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC005_GetCartsInDateRange">
+                <methods>
+                    <include name="TC_CartsInDateRange_001"/>
+                    <include name="TC_CartsInDateRange_002"/>
+                    <include name="TC_CartsInDateRange_003"/>
+                    <include name="TC_CartsInDateRange_005"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC006_GetUserCart">
+                <methods>
+                    <include name="TC_GetUserCart_001"/>
+                    <include name="TC_GetUserCart_002"/>
+                    <include name="TC_GetUserCart_003"/>
+                    <include name="TC_GetUserCart_004"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC007_AddNewProduct">
+                <methods>
+                    <include name="TC_AddProduct_001"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC008_UpdateCart">
+                <methods>
+                    <include name="TC_UpdatCart_001"/>
+                </methods>
+            </class>
+            <class name="CartsApi_Testcases.TC009_DeleteCart">
+                <methods>
+                    <include name="TC_DeletePeroduct_001"/>
+                </methods>
+            </class>
+            <class name="LginApi_Testcases.TC001_UserLogin">
+                <methods>
+                    <include name="TC_UserLogin_001"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC001_GetProducts">
+                <methods>
+                    <include name="TC_Products_001"/>
+                    <include name="TC_Products_002"/>
+                    <include name="TC_Products_003"/>
+                    <include name="TC_Products_004"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC002_GetSingleProduct">
+                <methods>
+                    <include name="TC_SingleProduct_001"/>
+                    <include name="TC_SingleProduct_002"/>
+                    <include name="TC_SingleProduct_003"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC003_LimitResults">
+                <methods>
+                    <include name="TC_LimitResult_001"/>
+                    <include name="TC_LimitResult_002"/>
+                    <include name="TC_LimitResult_003"/>
+                    <include name="TC_LimitResult_004"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC004_SortResultById">
+                <methods>
+                    <include name="TC_SortResult_001"/>
+                    <include name="TC_SortResult_002"/>
+                    <include name="TC_SortResult_003"/>
+                    <include name="TC_SortResult_004"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC005_GetCategories">
+                <methods>
+                    <include name="TC_Categories_001"/>
+                    <include name="TC_Categories_002"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC006_GetProductsInSpecificCategory">
+                <methods>
+                    <include name="TC_SpecificCategory_001"/>
+                    <include name="TC_SpecificCategory_002"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC007_AddNewProduct">
+                <methods>
+                    <include name="TC_AddPeroduct_001"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC008_UpdateProduct">
+                <methods>
+                    <include name="TC_UpdatePeroduct_001"/>
+                </methods>
+            </class>
+            <class name="ProductsApi_Testcases.TC009_DeleteProduct">
+                <methods>
+                    <include name="TC_DeletePeroduct_001"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC001_GetUsers">
+                <methods>
+                    <include name="TC_Users_001"/>
+                    <include name="TC_Users_002"/>
+                    <include name="TC_Users_003"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC002_GetSingleUser">
+                <methods>
+                    <include name="TC_SingleUser_001"/>
+                    <include name="TC_SingleUser_002"/>
+                    <include name="TC_SingleUser_003"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC003_LimitResult">
+                <methods>
+                    <include name="TC_LimitResult_001"/>
+                    <include name="TC_LimitResult_002"/>
+                    <include name="TC_LimitResult_003"/>
+                    <include name="TC_LimitResult_004"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC004_SortResultById">
+                <methods>
+                    <include name="TC_SortResult_001"/>
+                    <include name="TC_SortResult_002"/>
+                    <include name="TC_SortResult_003"/>
+                    <include name="TC_SortResult_004"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC005_AddNewUser">
+                <methods>
+                    <include name="TC_AddUser_001"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC006_UpdateUser">
+                <methods>
+                    <include name="TC_UpdateUser_001"/>
+                </methods>
+            </class>
+            <class name="UsersApi_Testcases.TC007_DeleteUser">
+                <methods>
+                    <include name="TC_DeleteUser_001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
